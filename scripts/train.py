@@ -36,7 +36,7 @@ from opensora.utils.train_utils import MaskGenerator, create_colossalai_plugin, 
 def main():
     # ======================================================
     # 1. configs & runtime variables
-    # ======================================================
+    # =-- =====================================================
     # == parse configs ==
     cfg = parse_configs(training=True)
     record_time = cfg.get("record_time", False)
